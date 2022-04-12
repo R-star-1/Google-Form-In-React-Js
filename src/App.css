@@ -1,0 +1,55 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    /* font-weight: bold; */
+    background-color: rgb(199, 9, 247);
+}
+h1{
+    text-align: center;
+    margin:2rem;
+    font-weight: bold;
+    color:white;
+}
+h4{
+    text-align: center;
+    color:white;
+}
+h2{
+    text-align: center;
+    color:white;
+}
+.GoogleForm{
+    margin:auto;
+    /* background-image: linear-gradient(rgb(192, 12, 216),rgb(213, 154, 231)); */
+    /* color:white; */
+    width:40%;
+    border:0px solid black;
+    box-shadow: 5px 5px 15px grey;
+    background-color: white;
+    /* position: absolute; */
+    /* margin-left: auto;
+    margin-top: auto; */
+    padding:30px;
+}
+.InsideDiv{
+    width:50%;
+    margin:auto;
+}
+.label{
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .GoogleForm{
+        width:90%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .GoogleForm{
+        width:80%;
+    }
+}
+@media only screen and (max-width: 390px) {
+    .GoogleForm{
+        width:95%;
+    }
+}
